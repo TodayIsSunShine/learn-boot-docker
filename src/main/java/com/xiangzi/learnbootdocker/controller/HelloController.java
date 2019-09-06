@@ -16,4 +16,9 @@ public class HelloController {
     public String hello() {
         return "hello,docker!";
     }
+
+    @GetMapping("/world")
+    public String world() {
+        return "hello,world!";
+    }
 }
