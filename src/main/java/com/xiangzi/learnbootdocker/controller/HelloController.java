@@ -21,4 +21,11 @@ public class HelloController {
     public String world() {
         return "hello,world!";
     }
+
+    @GetMapping("/test")
+    public String test() {
+        return "qianjiu,test";
+    }
+
+
 }
