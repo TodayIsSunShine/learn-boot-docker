@@ -28,4 +28,10 @@ public class HelloController {
     }
 
 
+    @GetMapping("/qianjiu")
+    public String qianjiu() {
+        return "qianjiu,you are good";
+    }
+
+
 }
