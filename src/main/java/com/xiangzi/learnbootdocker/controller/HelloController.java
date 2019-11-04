@@ -14,7 +14,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "hello,docker!";
+        return "i am qianjiu ,please test";
     }
 
     @GetMapping("/world")
